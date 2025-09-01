@@ -1,0 +1,18 @@
+{
+  "name": "conference-2025-javazone-aws-cdk-demo",
+  "version": "0.0.0-development",
+  "scripts": {
+    "cdk": "cdk",
+    "lint": "biome check --diagnostic-level=error",
+    "lint:fix": "biome check --fix"
+  },
+  "devDependencies": {
+    "aws-cdk": "2.1024.0",
+    "tsx": "4.19.3",
+    "typescript": "5.8.3"
+  },
+  "dependencies": {
+    "aws-cdk-lib": "2.181.1",
+    "constructs": "10.4.2"
+  }
+}
