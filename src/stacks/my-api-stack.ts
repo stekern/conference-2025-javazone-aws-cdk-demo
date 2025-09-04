@@ -18,7 +18,7 @@ export class MyApiStack extends cdk.Stack {
             headers: {
               "Content-Type": "text/html; charset=utf-8"
             },
-            body: "<h1>Hello World 👋</h1>"
+            body: "<h1>Hello JavaZone 👋</h1>"
           }
         }
       `),

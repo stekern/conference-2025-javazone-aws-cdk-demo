@@ -100,7 +100,7 @@ export class PipelineStack extends cdk.Stack {
           commands: [
             "set -eu",
             `result="$(curl --silent --fail "$API_URL")"`,
-            `echo "$result" | grep "World"`,
+            `echo "$result" | grep "JavaZone"`,
           ],
         }),
       ],
